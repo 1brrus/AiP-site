@@ -26,7 +26,7 @@ router.get('/applenow', function (req, res, next) {
     res.render('part', {
         title: 'Как дела у Apple сейчас',
         picture: 'images/apple-park.jpg',
-        desc: 'Сейчас компания является лидером рыночной капитализации'
+        desc: 'Сейчас компания является мировым лидером рыночной капитализации'
     });
 });
 
