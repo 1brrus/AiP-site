@@ -7,15 +7,27 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/earlyapple', function (req, res, next) {
-    res.send("<h1>Как все началось</h1>");
+    res.render('part', {
+        title: 'Основание компании Apple',
+        picture: 'images/first-apple-logo.png',
+        desc: 'Как основалась компания и первые 200 компьютеров собранные вручную'
+    });
 });
 
 router.get('/appledownfall', function (req, res, next) {
-    res.send("<h1>Уход Стива Джобса и крах компании</h1>");
+    res.render('part', {
+        title: 'Уход Стива Джобса и падение компании',
+        picture: 'images/apple-downfall.jpg',
+        desc: 'Увольнение Джобса из собственной компании и падение'
+    });
 });
 
 router.get('/applenow', function (req, res, next) {
-    res.send("<h1>Apple сейчас</h1>")
+    res.render('part', {
+        title: 'Как дела у Apple сейчас',
+        picture: 'images/apple-park.jpg',
+        desc: 'Сейчас компания является лидером рыночной капитализации'
+    });
 });
 
 module.exports = router;
