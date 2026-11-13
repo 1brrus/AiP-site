@@ -1,4 +1,4 @@
-# Mac Story
+# Apple Story
 
 Учебный проект по пособию: Node.js, Express, MongoDB, EJS.
 
@@ -10,7 +10,7 @@
 - EJS
 
 ## Кодовое слово
-Mac
+Apple
 
 ## Ветки
 - `main` — основная
